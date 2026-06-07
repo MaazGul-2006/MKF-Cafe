@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MKF Cafe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            background-color: whitesmoke;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .image-gallery {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .image-gallery img {
+            width: 300px;
+            height: 200px;
+            margin: 5px;
+        }
+
+        #site-title {
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 80px;
+            text-align: center;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        #tagline {
+            color: rgb(198, 150, 62);
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #f4d03f;
+            color: #000;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background-color: #e6b800;
+        }
+
+        @media (max-width: 768px) {
+            #site-title {
+                font-size: 40px;
+            }
+
+            .image-gallery img {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-gallery">
+        <img src="images/p1.jpg" alt="Cafe Image 1">
+        <img src="images/p2.jpg" alt="Cafe Image 2">
+        <img src="images/p3.jpg" alt="Cafe Image 3">
+        <img src="images/p4.jpg" alt="Cafe Image 4">
+    </div>
+
+    <h1 id="site-title">MKF Cafe</h1>
+    <h2 id="tagline">Brewed Fresh, Served Warm</h2>
+
+    <a href="reservation.html" class="btn">Make A Reservation</a><br>
+    <a href="menu.html" class="btn">Explore Menu</a><br>
+    <a href="events.html" class="btn">Upcoming Events</a><br>
+    <a href="about.html" class="btn">About Us</a><br>
+    <a href="contact.html" class="btn">Contact Us</a>
+
+</body>
+</html>

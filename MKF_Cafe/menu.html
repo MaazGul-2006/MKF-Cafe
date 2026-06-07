@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The MKF Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: beige;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .site-title {
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .navigation {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .navigation a:hover {
+            color: #ddd;
+        }
+
+        .image-gallery {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .image-gallery img {
+            width: 300px;
+            height: 200px;
+            margin: 5px;
+        }
+
+        .menu-box {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 2px solid #ccc;
+        }
+
+        .menu-heading {
+            font-size: 30px;
+            color: rgb(128, 91, 24);
+            text-align: center;
+            border-bottom: 2px solid rgb(128, 91, 24);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .food-item {
+            margin-bottom: 20px;
+        }
+
+        .food-name {
+            font-size: 18px;
+            color: black;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .food-description {
+            font-size: 14px;
+            color: rgb(201, 165, 99);
+        }
+
+        .price {
+            color: rgb(128, 91, 24);
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .image-gallery img {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .site-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="site-title">The MKF Menu</h1>
+
+    <div class="navigation">
+        <a href="index.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="reservation.html">RESERVATIONS</a>
+        <a href="events.html">EVENTS</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="about.html">ABOUT US</a>
+    </div>
+
+    <div class="image-gallery">
+        <img src="images/p10.jpg" alt="Food Image 1">
+        <img src="images/p7.jpg" alt="Food Image 2">
+        <img src="images/p8.jpeg" alt="Food Image 3">
+        <img src="images/p11.jpg" alt="Food Image 4">
+    </div>
+
+    <div class="menu-box">
+        <h2 class="menu-heading">Starters</h2>
+
+        <div class="food-item">
+            <div class="food-name">1. Truffle Parmesan Fries <span class="price">$25</span></div>
+            <div class="food-description">Hand-cut fries tossed with truffle oil, grated parmesan, and herb salt.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">2. Crispy Chicken Bites <span class="price">$27</span></div>
+            <div class="food-description">Buttermilk fried chicken served with garlic aioli & sweet chili glaze.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">3. Burrata & Heirloom Tomatoes <span class="price">$20</span></div>
+            <div class="food-description">Creamy burrata, basil oil, balsamic reduction, toasted sourdough.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">4. Honey Chili Cauliflower <span class="price">$20</span></div>
+            <div class="food-description">Flash-fried cauliflower coated in honey chili glaze, sesame & scallion.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">5. Garlic Butter Shrimp <span class="price">$27</span></div>
+            <div class="food-description">Sauteed prawns in lemon-garlic butter, served with warm toasted baguette.</div>
+        </div>
+    </div>
+
+    <div class="menu-box">
+        <h2 class="menu-heading">Main Course</h2>
+
+        <div class="food-item">
+            <div class="food-name">1. Creamy Tuscan Chicken Pasta <span class="price">$32</span></div>
+            <div class="food-description">Grilled chicken, sun-dried tomatoes, spinach, parmesan cream sauce.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">2. Beef Tenderloin Steak <span class="price">$45</span></div>
+            <div class="food-description">Char-grilled beef fillet, peppercorn sauce, mashed potatoes.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">3. Grilled Salmon Fillet <span class="price">$38</span></div>
+            <div class="food-description">Served with lemon butter sauce, grilled asparagus.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">4. Mushroom Truffle Risotto <span class="price">$28</span></div>
+            <div class="food-description">Creamy arborio rice with wild mushrooms and truffle essence.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">5. Crispy Chicken Sandwich <span class="price">$22</span></div>
+            <div class="food-description">Fried chicken breast, spicy mayo, lettuce, brioche bun.</div>
+        </div>
+    </div>
+
+    <div class="menu-box">
+        <h2 class="menu-heading">Desserts</h2>
+
+        <div class="food-item">
+            <div class="food-name">1. Classic Tiramisu <span class="price">$18</span></div>
+            <div class="food-description">Layers of espresso-soaked ladyfingers and mascarpone cream.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">2. Molten Lava Cake <span class="price">$20</span></div>
+            <div class="food-description">Warm chocolate cake with a gooey molten center, served with vanilla ice cream.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">3. New York Cheesecake <span class="price">$17</span></div>
+            <div class="food-description">Classic creamy cheesecake with berry compote.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">4. Caramel Bread Pudding <span class="price">$15</span></div>
+            <div class="food-description">Warm bread pudding drizzled with rich caramel sauce.</div>
+        </div>
+
+        <div class="food-item">
+            <div class="food-name">5. Mango Sorbet <span class="price">$12</span></div>
+            <div class="food-description">Refreshing tropical mango sorbet.</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 MKF Cafe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
